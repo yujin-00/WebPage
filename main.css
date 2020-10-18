@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-bottom: 10px;
+    color: black;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 25px;
+}
+.navbar a:hover
+{
+    font-weight: bold;
+    color: black;
+}
+.section1{
+
+    background: url("section1.jpg") no-repeat ;
+    background-size: cover;
+    height:700px;
+}
+.section1 p{
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section2{
+    height: 500px;
+}
+.section2::after{
+    content:"";
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    padding: 50px;
+    margin: auto;
+}
+.section2 .main 
+{   
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2 h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.section2 img{
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.section2 p{
+    line-height:30px;
+}
+.section3{
+    height: 600px;
+}
+.section3 h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.section3 p{
+    line-height:30px;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.run{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.html5{
+    margin-left: 20px;
+    width: 90%;
+    background-color: orangered;
+}
+.react{
+    margin-left: 60px;
+    width: 70%;
+    background-color: orangered;
+}
+.php{
+    margin-left: 90px;
+    width: 80%;
+    background-color: orangered;
+}
+.html5,.react,.php{
+    margin: 0 auto;
+}
+.section3::after{
+    content:"";
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    padding: 50px;
+    margin: auto;
+}
+.section4{
+    height: 600px;
+}
+.section4 h2{
+    text-align: center; 
+    margin-top: 200px;
+    font-size: 40px;
+}
+.section4 .project{
+    display: flex;
+    justify-content: space-around;
+}
+.section4 .project p{
+    text-align: center;
+    margin-top: 30px;
+}
+.section4 .project img{
+    margin-top: 60px;
+}
+.section4 .project img:hover
+{
+    transform: scale(1.1);
+    transition: transform.5s;
+}
+.section4::after{
+    content:"";
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    padding: 50px;
+    margin: auto;
+}
+.section5{
+    text-align: center;
+    height: 300px;
+}
+.section5 h2{
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.section5 i{
+    font-size: 40px;
+    padding:40px;
+}
